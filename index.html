@@ -23,6 +23,7 @@
   </head>
 
   <body>
+    <!-- Header with title, headline, and a date showing the current day -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -30,40 +31,50 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div class="input-group">
-        <input data-time="9" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <!-- time blocks created and formatted mainly with Bootstrap with input fields and save buttons to commit information to local storage. Fields change color according to current hour on load-->
+      <div class="input-group row">
+        <h2 class="hour">9:00AM&nbsp&nbsp</h2>
+        <input id="9" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="10" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">10:00AM</h2>
+        <input id="10" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="11" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">11:00AM</h2>
+        <input id="11" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="12" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">12:00PM</h2>
+        <input id="12" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="13" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">1:00PM&nbsp&nbsp</h2>
+        <input id="13" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="14" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">2:00PM&nbsp&nbsp</h2>
+        <input id="14" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="15" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">3:00PM&nbsp&nbsp</h2>
+        <input id="15" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="16" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">4:00PM&nbsp&nbsp</h2>
+        <input id="16" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
-      <div class="input-group">
-        <input data-time="17" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group row">
+        <h2 class="hour">5:00PM&nbsp&nbsp</h2>
+        <input id="17" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2"></button>
       </div>
     </div>
